@@ -1,0 +1,12 @@
+<svg id="Grupo_22" data-name="Grupo 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.926" height="57.716" viewBox="0 0 69.926 57.716">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_35" data-name="Trazado 35" d="M0-40.911H69.926V-98.627H0Z" transform="translate(0 98.627)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_21" data-name="Grupo 21" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="Grupo_20" data-name="Grupo 20" transform="translate(0 0)">
+      <path id="Trazado_34" data-name="Trazado 34" d="M-35.435-39.03A17.263,17.263,0,0,0-18.158-56.279,17.263,17.263,0,0,0-35.435-73.528a17.239,17.239,0,0,0-6.966,1.46l-1.586-2.194a19.886,19.886,0,0,1,8.553-1.919A19.919,19.919,0,0,1-15.5-56.279a19.919,19.919,0,0,1-19.935,19.9,19.941,19.941,0,0,1-18.8-13.269H-84.6c-.74,0-1.042-.507-.67-1.138L-60.027-93.62a.712.712,0,0,1,1.341,0l25.239,42.837c.37.628.074,1.138-.67,1.138H-46.885V-52.3h9.456L-59.356-89.45-81.285-52.3h28.861l1.038,2.7A17.324,17.324,0,0,0-35.435-39.03" transform="translate(85.426 94.092)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
