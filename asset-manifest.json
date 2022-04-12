@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tb/static/css/main.cb9e999e.css",
-    "main.js": "/tb/static/js/main.60fadbc6.js",
+    "main.css": "/tb/static/css/main.60226cd7.css",
+    "main.js": "/tb/static/js/main.6d564e3d.js",
     "static/js/787.10e132ba.chunk.js": "/tb/static/js/787.10e132ba.chunk.js",
-    "static/media/Foto2.svg": "/tb/static/media/Foto2.23855ab6abe06f67de08b7ca8cafa7ec.svg",
-    "static/media/Foto1.svg": "/tb/static/media/Foto1.5f62aeb01d93f22437cfd69a0d94a423.svg",
+    "static/media/Foto2.svg": "/tb/static/media/Foto2.ec896633883c6f89713bb7a1c95625dd.svg",
+    "static/media/Foto1.svg": "/tb/static/media/Foto1.0ed2472b7b256344030e29a000ae2d7e.svg",
     "static/media/PaperBag.svg": "/tb/static/media/PaperBag.8c287e16795a1cbf1eccca97654147bc.svg",
     "static/media/Tarjeta_02.svg": "/tb/static/media/Tarjeta_02.266068484e231827ebaf80a3258c73ce.svg",
     "static/media/copia.svg": "/tb/static/media/copia.abbca6229267dd6ab0489fb52b2f38e7.svg",
@@ -12,12 +12,20 @@
     "static/media/RC_004.svg": "/tb/static/media/RC_004.53f4f80512d5d1dc73960317526f46dd.svg",
     "static/media/ImageOne.svg": "/tb/static/media/ImageOne.942beda9445bc8e33b6245d7233b80c3.svg",
     "static/media/Label.svg": "/tb/static/media/Label.037ff35a4502928898778d0c7a734e01.svg",
-    "static/media/Grupo 729.svg": "/tb/static/media/Grupo 729.6323ee9826af127114b1c0330b24e6a5.svg",
-    "static/media/Grupo 726.svg": "/tb/static/media/Grupo 726.8135a6186fd218ec929dd281f37dc228.svg",
+    "static/media/Bianca_002.jpg": "/tb/static/media/Bianca_002.54b6cf9d735f66f9d1db.jpg",
+    "static/media/Jorge_002.jpg": "/tb/static/media/Jorge_002.1ec0fd65279a883f5506.jpg",
+    "static/media/Jaime_002.jpg": "/tb/static/media/Jaime_002.5025dcdca651e4f394da.jpg",
+    "static/media/Carlos_002.jpg": "/tb/static/media/Carlos_002.fcf445607e985c387121.jpg",
+    "static/media/Rafa_002.jpg": "/tb/static/media/Rafa_002.9730fb59ac9172c370cc.jpg",
     "static/media/ImageThree.svg": "/tb/static/media/ImageThree.8394f6319586bc083c2362c343a8ee77.svg",
     "static/media/Bluelander_6.svg": "/tb/static/media/Bluelander_6.0d463d4ba2113f6ff430f0f44e26d410.svg",
-    "static/media/Grupo 723.svg": "/tb/static/media/Grupo 723.a243568893365a00d0d88d5a2ada0560.svg",
-    "static/media/Foto3.svg": "/tb/static/media/Foto3.3f5f4091c834cf0c43cbc5606eac58c6.svg",
+    "static/media/Ari_002.jpg": "/tb/static/media/Ari_002.6b379c1bdf6ec6d157f9.jpg",
+    "static/media/Bianca_001.jpg": "/tb/static/media/Bianca_001.8f18cbfca520b968c72b.jpg",
+    "static/media/Jorge_001.jpg": "/tb/static/media/Jorge_001.fe012f640bae1aea4d05.jpg",
+    "static/media/Jaime_001.jpg": "/tb/static/media/Jaime_001.cbdb16560c9c51b001a5.jpg",
+    "static/media/Rafa_001.jpg": "/tb/static/media/Rafa_001.73e54af6debd91b7ba18.jpg",
+    "static/media/Ari_001.jpg": "/tb/static/media/Ari_001.e240eab1701a57c61d67.jpg",
+    "static/media/Carlos_001.jpg": "/tb/static/media/Carlos_001.529f5d743c2db79d2dbe.jpg",
     "static/media/Montserrat-Regular.otf": "/tb/static/media/Montserrat-Regular.cfe8a3efde65b43ae9ef.otf",
     "static/media/Summer Faith.ttf": "/tb/static/media/Summer Faith.39dd8767b19d0112d970.ttf",
     "static/media/Summer-Faith.otf": "/tb/static/media/Summer-Faith.8da7697cb031bb3350e3.otf",
@@ -58,12 +66,12 @@
     "static/media/Mas.svg": "/tb/static/media/Mas.7b20d8af378a517b72b6f610139924a0.svg",
     "static/media/Elipse 39.svg": "/tb/static/media/Elipse 39.25f9cad0b459b062baab2908360714d6.svg",
     "static/media/Elipse.svg": "/tb/static/media/Elipse.f9a8eda7cd7432d58b86079c6540950b.svg",
-    "main.cb9e999e.css.map": "/tb/static/css/main.cb9e999e.css.map",
-    "main.60fadbc6.js.map": "/tb/static/js/main.60fadbc6.js.map",
+    "main.60226cd7.css.map": "/tb/static/css/main.60226cd7.css.map",
+    "main.6d564e3d.js.map": "/tb/static/js/main.6d564e3d.js.map",
     "787.10e132ba.chunk.js.map": "/tb/static/js/787.10e132ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb9e999e.css",
-    "static/js/main.60fadbc6.js"
+    "static/css/main.60226cd7.css",
+    "static/js/main.6d564e3d.js"
   ]
 }
