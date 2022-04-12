@@ -1,0 +1,101 @@
+.containerContentPageOne{
+    min-width: 100vw;
+    min-height: 60vh;    
+    font-family: "SummerFaith-Regular";
+    display: flex;
+    justify-content: center;
+}
+
+.contentPageOne{
+    width: 100vw;
+    min-height: 50vh;
+    max-height: 50vh;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.oneContentPageOne{
+    align-self: stretch;
+    min-width: 85vw;
+    max-width: 85vw;
+    min-height: 30vh;
+    max-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 7.5vw;
+    img{
+        width: 25%;
+    }
+}
+.contentPageOne .twoContentPageOne{
+    margin-top: 8%;
+    transform: rotate(-7deg);
+    min-width: 40%;
+    min-height: 20vh;
+    max-height: 20vh;
+    display: flex;
+    align-items: flex-end;
+    font-size: 10rem;
+    color: white;
+}
+
+.threeContentPageOne{
+      
+    border-top: 1px solid rgba(255,255,255, .3);
+    min-width: 90vw;
+    min-height: 20vh;
+    max-height: 20vh;
+    display: flex;
+        justify-content: flex-end;
+    .slideHorizontal{
+        opacity: 1;
+        width: 100%;
+        display: flex;        
+        flex-direction: column;
+        min-height: 20vh;
+        max-height: 20vh;
+        overflow-x:hidden;
+        overflow-y: auto;   
+      
+        .subContentOnePageOne{
+            width: 20vw;
+            margin-left: 60vw;
+            min-height: 10vh;
+            max-height: 10vh;
+            margin-bottom: 5vh;
+            font-family:  Montserrat;
+            color: #FFFFFF;
+            font-size: 2rem;
+            font-weight: 700;
+            display: flex;            
+            align-items: center;
+        }
+        .subContentTwoPageOne{
+            width: 15vw;
+            min-height: 20vh;
+            max-height: 20vh;
+            margin-left: 80vw;
+            font-family:  Montserrat;
+            color: #FFFFFF;
+            font-weight: 700;
+            font-size: 2rem;
+            display: flex;            
+            align-items: center;
+        }
+    }
+    
+}
+.slideHorizontal::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+  

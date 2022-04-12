@@ -1,0 +1,36 @@
+
+.App {
+text-align: left;
+min-width: 94vw;
+max-width: 100vw;
+min-height: 99.5vh;
+max-height: 99.5vh;
+overflow-y: scroll;
+display: flex;
+flex-direction: column;
+}
+
+.App::-webkit-scrollbar{
+  width: .3vw;     //Tamaño de scrool en vertical
+  height: .3vw;    //Tamaño se scroll en horizontal
+}
+
+.App::-webkit-scrollbar-thumb{
+  background: #CCC;
+  border-radius: 4px;
+}
+
+.App::-webkit-scrollbar-thumb:hover{
+  background: #B3B3B3;
+  box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);  
+}
+
+
+/* Cambiamos el fondo y agregamos una sombra cuando este en hover */
+
+.App::-webkit-scrollbar-thumb:active{
+  background-color: #999;
+}
+
+
+

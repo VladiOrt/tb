@@ -1,0 +1,18 @@
+.containerFlecha{
+    min-width: 24.72px;
+    max-width: 24.72px;
+    min-height: 24.72px;
+    max-height: 24.72px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 24.72px;
+        position: absolute;
+    }
+    .flecha{
+        width: 12px;
+    }
+}

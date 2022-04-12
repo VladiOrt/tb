@@ -1,0 +1,107 @@
+.containerContentPageTwo{
+    min-width: 100vw;
+    min-height: 80vh;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlePageTwo{
+    width: 85vw;
+    min-height: 20vh;
+    max-height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFF;
+    font-family:  Montserrat;
+    font-size: 1.2rem;
+    img{
+        margin-right: 1%;
+    }
+}
+.containerSubContentPageTwo{
+    min-width:  85vw;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    .subtitleContainerPageTwo{
+        text-align: left;
+        color: #FFF;
+        font-family:  Montserrat;       
+        h1{
+            font-size: 2.8rem;
+            font-stretch: condensed;
+            margin-bottom: -1%;
+        }
+    }
+}
+.optionSelectSubtitle{
+    margin-top: 1%;
+    min-width:  85vw;
+    display: flex;
+    flex-direction: row;
+    .submenuPageTwo{
+        text-align: left;
+        min-width: 55%;
+        height: 40vh;
+        display: flex;        
+        align-items: center;
+        font-family:  Montserrat;
+        .submenu{
+            width: 80%;
+            list-style: none;
+            color: #707070;
+            font-size: 2.3rem;
+            font-weight: 800;
+            font-family:  Montserrat;
+            li{
+                margin-left:10%;
+                width: 80%;
+                min-height: 5.5vh;
+                border-bottom: 1px solid #848484;
+            }
+            .suboptionSelected{
+                color: #FF4700;
+                //border-bottom: 1px solid #FFFFFF;
+                border-bottom: 1px solid rgba(255,255,255, .3);
+            }
+        }
+    }
+    .contentMenuPageTwo{
+        min-width: 30%;
+        max-width: 30%;
+        display: flex;
+        padding-top: 5vh;
+        .textContainer{
+                .title{
+                    color: #FFF;
+                    font-size: 1.5rem;
+                    font-family: Montserrat;
+                }
+                .subtitle{
+                    color: #FA500F;
+                    font-size: 1.4rem;
+                    font-family: Montserrat;
+                }
+                .text{
+                    color: #CBCBCB;
+                    font-size: 1.3rem;
+                }
+                .boton{
+                    color: #FFFFFF;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    min-height: 10vh;
+                    font-size: 1.3rem;
+                    font-family: Montserrat;
+                    border-bottom: 1px solid rgba(255,255,255, .3);
+                }
+           
+        }
+       
+    }
+}

@@ -1,0 +1,256 @@
+.containerContentPageThree{
+    min-width: 99.7vw;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.pageThreeheader{
+    min-width: 90vw;
+    position: absolute;
+    max-width: 90vw;
+    min-height: 10vh;
+    border-top: 1px solid rgba(255,255,255, .3);
+    //border-top: 1px solid #FFFFFF;
+}
+.pageThreeContent{
+    min-width: 90vw;
+    max-width: 90vw;
+    min-height: 80vh;
+    .containerTitleContentPageThree{
+        min-width:100%;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: row;
+        .containerTitleContentPageThreeLeft{
+            display: flex;
+            width: 50%;
+            min-height: 5vh;
+            display: flex;
+            align-items: center;
+            color: #FFF;
+            font-size: 1.2rem;
+            font-family: Montserrat;
+            img{
+                width: 1%;
+                margin-right: 2%;
+            }
+        }
+        .containerTitleContentPageThreeRight{
+            display: flex;
+            width: 50%;
+            align-items: center;
+            justify-content: flex-end;
+            color: #FFF;
+            font-family:  Montserrat;
+            font-size: 1.6rem;
+            .selectText{
+                color: #FF4700;
+
+               
+            }
+        }
+    }
+
+    .submenuContainerPageThree{
+        border: 1px solid red;
+        min-height: 55vh;
+        display: flex;
+        min-width: 90vw;
+        position: absolute;
+        .submenuLeftContainer{
+            width : 45%;
+            min-height: 55vh;
+            .submenuLeftContainerIcons{
+                display: flex;                
+                align-items: flex-start;
+                min-width: 100%;
+                min-height: 30vh;
+                img{
+                    margin:20px;
+                }                
+            }
+            .submenuLeftContainerBottom{
+                display: flex;     
+                flex-direction: column;      
+                min-width: 100%;
+                min-height: 25vh;
+
+                .submenuRightContainerHeader{
+                    width: 100%;
+                    min-height: 10vh;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                }
+                .submenuRightContainerBottom{
+                    width: 100%;
+                    min-height: 15vh;
+                    display: flex;
+                    flex-direction: row;
+                    .submenuRightContainerBottomLeft{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+                        width: 60%;
+                        color: #FF4700;
+                        .branding{
+                            transform: rotate(-15deg);
+                            font-family: SummerFaith;
+                            font-size: 10rem;
+                            padding-bottom: 80%;
+                            padding-left: 80%;
+                           
+                        }
+                        .Design{
+                            transform: rotate(-15deg);
+                            font-family: SummerFaith;
+                            font-size: 14rem;
+                            padding-bottom: 100%;
+                            padding-left: 100%;
+                        }
+                        .Web{
+                            transform: rotate(-15deg);
+                            font-family: SummerFaith;
+                            font-size: 15rem;
+                            padding-bottom: 100%;
+                            padding-left: 100%;
+                        }
+                    }   
+                    .submenuRightContainerBottomRight{
+                        display: flex;
+                        align-items: flex-start;
+                        width: 40%;
+                    }
+                }
+            }
+        }
+        .submenuRightContainer{
+            min-width : 55%;
+            min-height: 55vh;           
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            color: #FFF;
+            border: 1px solid red;
+           ul{            
+            min-width: 80%;
+            max-width: 80%;
+            font-family:  Montserrat;
+            list-style: none;
+            font-size: 1.8rem;
+            
+            li{
+                border-top: 1px solid rgba(255,255,255, .3);
+                border-bottom: 1px solid rgba(255,255,255, .3);
+                //border-top: 1px solid #FFF;
+                //border-bottom: 1px solid #FFF;
+                min-height: 8vh;
+                display: flex;
+                align-items: center;
+                .title{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    text {
+                        color: #FFF;
+                        min-height: 8vh;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        width: 90%;
+                        font-family:  Montserrat;
+                        font-size: 1.8rem;
+                    } 
+                    .opcion{
+                        border: 1px solid green;
+                        color: #FFF;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 10%;
+                        font-size: 5rem;
+
+                        .menos{
+                            color: #FF4700;
+                            position: absolute;
+                        }
+
+                    }
+                    
+                }   
+                
+            }   
+ 
+            .selected{
+                border: 1px solid #FFF;
+                border-top: 1px solid rgba(255,255,255, .3);
+                border-bottom: 1px solid rgba(255,255,255, .3);
+                margin: 0;
+                padding: 0;
+                //border-bottom: 1px solid #FFF;
+                min-height: 8vh;
+                display: flex;
+                align-items: center;   
+                flex-direction: column;
+                .titleselect{
+                    display: flex;
+                    flex-direction: row;
+                    min-width: 100%;
+                    cursor: pointer;
+                    border: 1px solid rgb(30, 38, 255);
+                    text {
+                        color: #FF4700;
+                        min-height: 8vh;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        border: 1px solid red;
+                    } 
+                    .opcion{
+                        border: 1px solid green;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        min-width: 10%;                       
+                        font-size: 5rem;
+                        font-weight: normal;
+                        font-weight: lighter;
+                        text-decoration: none;
+                        border: 1px solid red;
+                        .menos{
+                            border: 1px solid red;
+                            color: #FF4700;
+                            position: absolute;
+                        }
+                    }
+                }   
+                        
+                ul{
+                    border: none;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    font-size: 1.2rem;
+                    li{
+                        color: #939393;
+                        border: none;
+                        min-height: 5vh;
+                    }
+                }
+               
+            }          
+           }
+        }
+    }
+}
+
+.test{
+    stroke: aqua;
+    position: relative;
+    #Trazado_32{
+    stroke: aqua;
+        
+    }
+}
