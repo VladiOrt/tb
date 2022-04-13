@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tb/static/css/main.b414ebe4.css",
-    "main.js": "/tb/static/js/main.14b0c87f.js",
+    "main.css": "/tb/static/css/main.3b98709c.css",
+    "main.js": "/tb/static/js/main.7d9fcf7a.js",
     "static/js/787.10e132ba.chunk.js": "/tb/static/js/787.10e132ba.chunk.js",
     "static/media/Foto2.svg": "/tb/static/media/Foto2.ec896633883c6f89713bb7a1c95625dd.svg",
     "static/media/Foto1.svg": "/tb/static/media/Foto1.0ed2472b7b256344030e29a000ae2d7e.svg",
@@ -53,6 +53,7 @@
     "index.html": "/tb/index.html",
     "static/media/direction.svg": "/tb/static/media/direction.784bd48bdf7a5ced010814bd80fb4743.svg",
     "static/media/reserved.svg": "/tb/static/media/reserved.963780cf6ee0077053072cd031fb6820.svg",
+    "static/media/Trazado.svg": "/tb/static/media/Trazado.99cfe6b9349b81c8c6ab46d2240df6a7.svg",
     "static/media/Trazado 239.svg": "/tb/static/media/Trazado 239.420c6f0af31f62af87dcd0322d93a3b0.svg",
     "static/media/Bart Street.svg": "/tb/static/media/Bart Street.baa5cdcd696cd9af8fd69c3185fcc0b9.svg",
     "static/media/Re-Branding.svg": "/tb/static/media/Re-Branding.d58f5a29cc8a6ad8ee2e8a0c64dd8cd2.svg",
@@ -60,12 +61,12 @@
     "static/media/Mas.svg": "/tb/static/media/Mas.7075ca18bc356da50631340748859279.svg",
     "static/media/Elipse 39.svg": "/tb/static/media/Elipse 39.ed8d3340cb2eb082156bf4f1c3e9b1f8.svg",
     "static/media/Elipse.svg": "/tb/static/media/Elipse.f9a8eda7cd7432d58b86079c6540950b.svg",
-    "main.b414ebe4.css.map": "/tb/static/css/main.b414ebe4.css.map",
-    "main.14b0c87f.js.map": "/tb/static/js/main.14b0c87f.js.map",
+    "main.3b98709c.css.map": "/tb/static/css/main.3b98709c.css.map",
+    "main.7d9fcf7a.js.map": "/tb/static/js/main.7d9fcf7a.js.map",
     "787.10e132ba.chunk.js.map": "/tb/static/js/787.10e132ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b414ebe4.css",
-    "static/js/main.14b0c87f.js"
+    "static/css/main.3b98709c.css",
+    "static/js/main.7d9fcf7a.js"
   ]
 }
