@@ -4,8 +4,7 @@ import './index.scss'
 
 import ImgOne from '../../img/projects/Label.svg';
 
-import BartStreet from '../../img/projects/Bart Street.svg';
-import ReBranding from '../../img/projects/Re-Branding.svg';
+
 import iconDirection from '../../img/projects/Elipse 39.svg';
 
 
@@ -18,17 +17,20 @@ import ImgFive from '../../img/projects/copia.svg';
 import ImgSix from '../../img/projects/Tarjeta_02.svg';
 
 
-/*
-import BartStreet from '../../img/projects/Bart Street.svg';
-import ReBranding from '../../img/projects/Re-Branding.svg';
-import iconDirection from '../../img/projects/Elipse 39.svg';
-*/
-
-import PageSeven from '../pageseven/'
-
 const ContentProjectsTotal = () => {
     return(
     <div className="ContentProjects">
+        <div className="ContentProjectsTitle">
+            <div className="ContentProjectsLeft">
+                <img src={iconDirection} alt="React Logo" width="2%" />  
+                The Projects
+            </div>
+            <div className="ContentProjectsRight">
+                We take pride in your success
+            </div>
+        </div>
+
+
         <div className="ContentProjectsViewImgageOne">
             <div className="ContentProjectsViewImgageLeft" 
                 style={{
@@ -37,16 +39,20 @@ const ContentProjectsTotal = () => {
             >
             </div>
             <div className="ContentProjectsViewImgageRight">
-                <img src={BartStreet} alt="React Logo" width="65%" />                                
-                <img src={ReBranding} alt="React Logo" width="65%" />                                
-                <img src={iconDirection} alt="React Logo" width="8%" />                                
+                <text className="textOne">Bart street</text>
+                <text className="textTwo">Re-Branding</text>
+                <text className="textThree">
+                    <div className="Flecha"></div>
+                </text>                                
             </div>
         </div>       
         <div className="ContentProjectsViewImgageTwo">
             <div className="ContentProjectsViewImgageLeft">
-                <img src={BartStreet} alt="React Logo" width="65%" />                                
-                <img src={ReBranding} alt="React Logo" width="65%" />                                
-                <img src={iconDirection} alt="React Logo" width="8%" />                                
+                <text className="textOne">Bart street</text>
+                <text className="textTwo">Re-Branding</text>
+                <text className="textThree">
+                    <div className="Flecha"></div>
+                </text>  
             </div>
             <div className="ContentProjectsViewImgageRight"
                 style={{
@@ -67,16 +73,20 @@ const ContentProjectsTotal = () => {
             >             
             </div>
             <div className="ContentProjectsViewImgageRight">
-                <img src={BartStreet} alt="React Logo" width="65%" />                                
-                <img src={ReBranding} alt="React Logo" width="65%" />                                
-                <img src={iconDirection} alt="React Logo" width="8%" />                                
+                <text className="textOne">Bart street</text>
+                <text className="textTwo">Re-Branding</text>
+                <text className="textThree">
+                    <div className="Flecha"></div>
+                </text> 
             </div>
         </div>       
         <div className="ContentProjectsViewImgageTwo">
             <div className="ContentProjectsViewImgageLeft">
-                <img src={BartStreet} alt="React Logo" width="65%" />                                
-                <img src={ReBranding} alt="React Logo" width="65%" />                                
-                <img src={iconDirection} alt="React Logo" width="8%" />                                
+                <text className="textOne">Bart street</text>
+                <text className="textTwo">Re-Branding</text>
+                <text className="textThree">
+                    <div className="Flecha"></div>
+                </text> 
             </div>
             <div className="ContentProjectsViewImgageRight"
                style={{
@@ -96,16 +106,20 @@ const ContentProjectsTotal = () => {
             >                               
             </div>
             <div className="ContentProjectsViewImgageRight">
-                <img src={BartStreet} alt="React Logo" width="65%" />                                
-                <img src={ReBranding} alt="React Logo" width="65%" />                                
-                <img src={iconDirection} alt="React Logo" width="8%" />                                
+                <text className="textOne">Bart street</text>
+                <text className="textTwo">Re-Branding</text>
+                <text className="textThree">
+                    <div className="Flecha"></div>
+                </text> 
             </div>
         </div>       
         <div className="ContentProjectsViewImgageTwo">
             <div className="ContentProjectsViewImgageLeft">
-                <img src={BartStreet} alt="React Logo" width="65%" />                                
-                <img src={ReBranding} alt="React Logo" width="65%" />                                
-                <img src={iconDirection} alt="React Logo" width="8%" />                                
+                <text className="textOne">Bart street</text>
+                <text className="textTwo">Re-Branding</text>
+                <text className="textThree">
+                    <div className="Flecha"></div>
+                </text> 
             </div>
             <div className="ContentProjectsViewImgageRight"
                 style={{

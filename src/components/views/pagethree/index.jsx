@@ -14,8 +14,6 @@ import TrianguloOrange from '../../img/pagethree/TrianguloOrange.svg';
 import MundoOrange from '../../img/pagethree/MundoOrange.svg';
 
 
-import LoveTo from '../../img/pagethree/LoveTo.svg';
-import Expert from '../../img/pagethree/Experts.svg';
 
 
 import Menos from '../../img/pagethree/Menos.svg';
@@ -32,9 +30,6 @@ const PageThree = () =>{
     }
     return(
         <div className="containerContentPageThree">
-            <div className="pageThreeheader">
-
-            </div>
             <div className='pageThreeContent'>
                 <div className="containerTitleContentPageThree">
                     <div className="containerTitleContentPageThreeLeft">
@@ -54,7 +49,7 @@ const PageThree = () =>{
                         <div className='submenuLeftContainerIcons'>            
                                   
                             {
-                                opcionSelect == 1 ? (<img onClick={()=>Menu('0')} src={HuellaOrange} alt="React Logo" width="25%" />)
+                                opcionSelect == 1 ? (<img onClick={()=>Menu('0')} src={HuellaOrange} alt="React Logo" width="20%" />)
                                 : (<img onClick={()=>Menu('1')} src={Huella} alt="React Logo" width="5%" color="white"  className="test"/>)
                             }
                             {
@@ -68,7 +63,7 @@ const PageThree = () =>{
                         </div>
                         <div className="submenuLeftContainerBottom">
                             <div className="submenuRightContainerHeader">
-                                <img src={LoveTo} alt="React Logo" width="45%"/>
+                                Leave it to the
                             </div>
                             <div className="submenuRightContainerBottom">
                                 <div className="submenuRightContainerBottomLeft">                            
@@ -83,7 +78,7 @@ const PageThree = () =>{
                                     }           
                                 </div>
                                 <div className="submenuRightContainerBottomRight">
-                                    <img src={Expert} alt="React Logo" width="55%"/>                                
+                                    Experts
                                 </div>
                             </div>
                         </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import './index.scss'
-
+import { Link } from "react-router-dom";
 
 import Flecha from "../../img/flecha";
-
+import Elipse from '../../img/pagethree/Elipse.svg';
 const PageFour = () =>{
     
 
@@ -12,10 +12,11 @@ const PageFour = () =>{
             <div className="pageContentFour">
                 <div className="pageContentFourHeader">
                     <div className="pageContentFourHeaderLeft">
-
+                        <img src={Elipse} alt="React Logo" />
+                        Work
                     </div>
                     <div className="pageContentFourHeaderRight">
-                        We take priden in your success
+                        We take pride in your success
                     </div>
                 </div>
                 <div className="pageContentFourCentral">
@@ -26,8 +27,10 @@ const PageFour = () =>{
 
                         <div className="pageContentFourCentralContentOneFooter">
                             <div className="textOne">
-                                <text>Bart Street</text> 
-                                <Flecha className="divFlecha" />
+                                <Link to="/projects" className="Links">  
+                                    <text>Bart Street</text> 
+                                    <Flecha className="divFlecha" />
+                                </Link>                                
                             </div>
                             <div className="textTwo">
                                 Re-Branding
@@ -38,9 +41,11 @@ const PageFour = () =>{
                         <div className="pageContentFourCentralContentTwoImage">
                         </div>
                         <div className="pageContentFourCentralContentTwoFooter">
-                        <div className="textOne">                                
-                                <text>Reserve Cut</text> 
-                                <Flecha className="divFlecha" />
+                            <div className="textOne">          
+                                <Link to="/projects" className="Links">  
+                                    <text>Reserve Cut</text> 
+                                    <Flecha className="divFlecha" />
+                                </Link>                                                        
                             </div>
                             <div className="textTwo">
                                 Branding Design
@@ -51,9 +56,12 @@ const PageFour = () =>{
                         <div className="pageContentFourCentralContentThreeImage">
                         </div>
                         <div className="pageContentFourCentralContentThreeFooter">
-                            <div className="textOne">                                                            
-                                <text>Bluelander</text> 
+                            <div className="textOne">  
+                            <Link to="/projects" className="Links">  
+                            <text>Bluelander</text> 
                                 <Flecha className="divFlecha" />
+                                </Link>                                                                
+                                
                             </div>
                             <div className="textTwo">
                                 Re-Branding
@@ -66,8 +74,10 @@ const PageFour = () =>{
 
                     </div>
                     <div className="pageContentFourFooterRight">
-                        <text>More Projects</text> 
-                        <Flecha className="divFlecha" />
+                        <Link to="/projects" className="Links">  
+                            <text>More Projects</text> 
+                            <Flecha className="divFlecha" />
+                        </Link>                                                                                                                    
                     </div>
                 </div>
             </div>

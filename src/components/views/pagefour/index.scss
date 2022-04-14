@@ -21,8 +21,15 @@
             width: 50%;
             min-height: 10vh;
             display: flex;
-            justify-content: center;
-            align-items: flex-start;
+            justify-content: flex-start;
+            align-items: center;
+            color: #FFF;
+            font-size: 1rem;
+            font-family: Montserrat;
+            img{
+                margin-right: 2%;
+                
+            }
         }
         .pageContentFourHeaderRight{
             width: 50%;
@@ -48,10 +55,9 @@
             flex-direction: column;
             justify-content: center;
             .pageContentFourCentralContentOneImage{
-                width: 100%;
-                min-width: 100%;
-                height: 50%;
-                min-height: 50%;
+                width: 25vw;
+                min-width: 25vw;
+                min-height: 25vw;
                 overflow-x:scroll;
                 overflow-y: auto;
                 display: flex;
@@ -59,7 +65,7 @@
                 align-items: center;
                 transition: all .2s ease-in-out;
                 background-image: url('../../img/pagefour/ImageOne.svg');
-                background-size: 100%;
+                background-size: 110%;
                 background-repeat: no-repeat;
                 background-position: center;
 
@@ -73,24 +79,32 @@
             }
             .pageContentFourCentralContentOneFooter{
                 width: 100%;
-                height: 20%;
+                min-height: 25%;
                 color: #FFF;
-                .textOne{
-                    width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .Links{
+                    cursor: pointer;
+                    border-bottom: 1px solid rgba(255,255,255, .3);
+                    text-decoration: none;
+                    min-width: 100%;
                     min-height: 50%;
                     display: flex;
-                    align-items: center;
-                    border-bottom: 1px solid rgba(255,255,255, .3);
-                    //border-bottom: 1px solid #848484;
-                    font-family:  Montserrat;
-                    font-size: 1.5rem;
+                    justify-content: flex-start;
+                    align-items: flex-start;
                     text{
+                        font-size: 1.5rem;
                         width: 90%;
+                        min-height: 100%;
+                        font-weight: 500;
                     }
+                    
                 }
+
                 .textTwo{
                     width: 100%;
-                    min-height: 50%;
+                    min-height: 40%;
                     display: flex;
                     align-items: center;
                     color: #939393;
@@ -105,14 +119,13 @@
             flex-direction: column;
             justify-content: center;
             .pageContentFourCentralContentTwoImage{
-                min-width: 100%;
-                height: 50%;
-                min-height: 50%;
+                min-width: 25vw;
+                min-height: 25vw;
                 overflow-x:scroll;
                 overflow-y: auto;
                 transition: all .2s ease-in-out;
                 background-image: url('../../img/pagefour/ImageTwo.svg');
-                background-size: 100%;
+                background-size: 110%;
                 background-repeat: no-repeat;
                 background-position: center;
             }
@@ -125,24 +138,32 @@
             }
             .pageContentFourCentralContentTwoFooter{
                 width: 100%;
-                height: 20%;
+                min-height: 25%;
                 color: #FFF;
-                .textOne{
-                    width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .Links{
+                    cursor: pointer;
+                    border-bottom: 1px solid rgba(255,255,255, .3);
+                    text-decoration: none;
+                    min-width: 100%;
                     min-height: 50%;
                     display: flex;
-                    align-items: center;
-                    border-bottom: 1px solid rgba(255,255,255, .3);
-                    //border-bottom: 1px solid #848484;
-                    font-family:  Montserrat;
-                    font-size: 1.5rem;
+                    justify-content: flex-start;
+                    align-items: flex-start;
                     text{
+                        font-size: 1.5rem;
                         width: 90%;
+                        min-height: 100%;
+                        font-weight: 500;
                     }
+                    
                 }
+
                 .textTwo{
                     width: 100%;
-                    min-height: 50%;
+                    min-height: 40%;
                     display: flex;
                     align-items: center;
                     color: #939393;
@@ -157,16 +178,15 @@
             flex-direction: column;
             justify-content: center;
             .pageContentFourCentralContentThreeImage{
-                min-width: 100%;
-                height: 50%;
-                min-height: 50%;
+                min-width: 25vw;
+                min-height: 25vw;
                 overflow-x:scroll;
                 overflow-y: auto;
                 display: flex;justify-content: center;
                 align-items: center;
                 transition: all .2s ease-in-out;
                 background-image: url('../../img/pagefour/ImageThree.svg');
-                background-size: 100%;
+                background-size: 110%;
                 background-repeat: no-repeat;
                 background-position: center;
             }
@@ -180,23 +200,32 @@
             
             .pageContentFourCentralContentThreeFooter{
                 width: 100%;
-                height: 20%;
+                min-height: 25%;
                 color: #FFF;
-                .textOne{
-                    width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .Links{
+                    cursor: pointer;
+                    border-bottom: 1px solid rgba(255,255,255, .3);
+                    text-decoration: none;
+                    min-width: 100%;
                     min-height: 50%;
                     display: flex;
-                    align-items: center;
-                    border-bottom: 1px solid #848484;
-                    font-family:  Montserrat;
-                    font-size: 1.5rem;
+                    justify-content: flex-start;
+                    align-items: flex-start;
                     text{
+                        font-size: 1.5rem;
+                        font-weight: 500;
                         width: 90%;
+                        min-height: 100%;
                     }
+                    
                 }
+
                 .textTwo{
                     width: 100%;
-                    min-height: 50%;
+                    min-height: 40%;
                     display: flex;
                     align-items: center;
                     color: #939393;
@@ -224,10 +253,17 @@
             align-items: center;
             border-bottom: 1px solid #848484;
             color: #FFF;
+            .Links{
+                text{
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                }
+            }
             text{
                 font-size: 1.5rem;
                 font-family: Montserrat;
                 margin-right: 5%;
+                
             }
         }
 

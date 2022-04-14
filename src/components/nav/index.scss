@@ -1,10 +1,13 @@
 /*     HEADER CLOSE     */
 .HeaderNavContainer{
-    position: fixed;
-    z-index: 50;
-    min-width: 99.8vw;
-    min-height: 5vh;
+    position: absolute;
+    z-index: 20;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 8vh;
     .navigationMenu{
+        min-width: 99.8vw;
+        max-width: 100vw;
         .MenuBottoms{
             display: flex;
             flex-direction: row;
@@ -14,7 +17,8 @@
                 justify-content: flex-end;
                 align-items: center;
                 background-color: #FF4700;
-                width: 5vw;
+                min-height: 8vh;
+                min-width: 5vw;
             }
             .containerLinks{
                 flex-grow: 3;
@@ -30,7 +34,9 @@
             }
             .containerBotton{
                 display: flex;
-                width: 5vw;
+                justify-content: flex-start;
+                align-items: center;
+                min-width: 4.5vw;
                 color: #FFF;
                 background-color: #FF4700;
             }
@@ -44,18 +50,23 @@
 /*      HEADER CLOSED       */
 
 .HeaderNavContainerOpen{
-    position: fixed;
-    z-index: 100;
-    min-width: 99.7vw;
-    min-height: 5vh;
+    position: absolute;
+    z-index: 50;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 8vh;
     display: flex;
     flex-direction: column;
     background-color: rgba( 0,0,0,  0.8);
 
     .navigationMenu{
+        min-width: 99.8vw;
+        max-width: 100vw;
+        
         .MenuBottoms{
             display: flex;
             flex-direction: row;
+              min-height: 8vh;             
             .containerTBE{
                 cursor: pointer;
                 display: flex;
@@ -76,7 +87,9 @@
             }
             .containerBotton{
                 display: flex;
-                width: 5vw;
+                justify-content: flex-start;
+                align-items: center;
+                width: 4.5vw;
                 color: #FFF;
             }
         }
@@ -88,7 +101,7 @@
         div{
             width: 30vw;
         }
-        .elementThree{
+        .elementThree {
             flex-grow: 2;
             display: flex;
             flex-direction: column;
@@ -102,6 +115,7 @@
                 width: 100%;
                 min-height: 80%;
                 li{
+                    cursor: pointer;
                     width: 80%;
                     display: flex;
                     justify-content: flex-start;
@@ -114,7 +128,7 @@
                     font-weight: 600;
                 }
                 li:hover{
-                    color: #FF4700;
+                    color: black;
                 }
             }            
             div{
@@ -140,13 +154,32 @@
 .containerHomePage{
     min-width: 99.7vw;
     min-height: 100vh;
+    $list3: #FF4700 0%, #FF4700 10%, #000000 25%, #000000 39%, #000000 90%, #FF4700 100%; 
+    background: -webkit-linear-gradient($list3);
+    position: absolute;
+    
 }
 
 .containerProjects{
-    background-color: blue;
     min-width: 99vw;
     min-height: 200vh;
 }
 
 
 
+.Links{
+    text-decoration: none;
+    cursor: pointer;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    color: #FFF;
+    font-size: 3rem;
+    font-family: Montserrat;
+    min-height: 25%;
+    font-weight: 600;
+}
+.Links:hover{
+    color: #FF4700;
+}

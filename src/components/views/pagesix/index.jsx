@@ -45,13 +45,13 @@ const PageSix = () =>{
 
 
 
-            <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+            <div style={{ width: '85vw', marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
             <Carousel
                 show={2}
                 infiniteLoop
             >
                 <div>
-                    <div style={{padding: 8}}>
+                    <div style={{padding: '10%'}}>
                         <div style={{width: '100%', color: 'white'}}  className="ImgOne">
                             <div className="ImgOneLeft">
                                 <img src={Foto1} alt="React Logo" width="50%"/>   
@@ -76,7 +76,7 @@ const PageSix = () =>{
                     </div>
                 </div>
                 <div>
-                    <div style={{padding: 8}}>
+                <div style={{padding: '10%'}}>
                         <div style={{width: '100%', color: 'white'}}  className="ImgTwo">
                             <div className="ImgOneLeft">
                                 <img src={Foto2} alt="React Logo" width="90%"/>   
@@ -104,7 +104,7 @@ const PageSix = () =>{
                 
                 
                 <div>
-                    <div style={{padding: 8}}>
+                <div style={{padding: '10%'}}>
                         <div style={{width: '100%', color: 'white'}}  className="ImgOne">
                             <div className="ImgOneLeft">
                                 <img src={Foto1} alt="React Logo" width="50%"/>   
@@ -129,7 +129,7 @@ const PageSix = () =>{
                     </div>
                 </div>
                 <div>
-                    <div style={{padding: 8}}>
+                <div style={{padding: '10%'}}>
                         <div style={{width: '100%', color: 'white'}}  className="ImgTwo">
                             <div className="ImgOneLeft">
                                 <img src={Foto2} alt="React Logo" width="90%"/>   
@@ -156,7 +156,7 @@ const PageSix = () =>{
                 </div>
 
                 <div>
-                    <div style={{padding: 8}}>
+                <div style={{padding: '10%'}}>
                         <div style={{width: '100%', color: 'white'}}  className="ImgOne">
                             <div className="ImgOneLeft">
                                 <img src={Foto1} alt="React Logo" width="50%"/>   
@@ -181,7 +181,7 @@ const PageSix = () =>{
                     </div>
                 </div>
                 <div>
-                    <div style={{padding: 8}}>
+                <div style={{padding: '10%'}}>
                         <div style={{width: '100%', color: 'white'}}  className="ImgTwo">
                             <div className="ImgOneLeft">
                                 <img src={Foto2} alt="React Logo" width="90%"/>   
@@ -209,7 +209,7 @@ const PageSix = () =>{
 
 
                 <div>
-                    <div style={{padding: 8}}>
+                <div style={{padding: '10%'}}>
                         <div style={{width: '100%', color: 'white'}}  className="ImgOne">
                             <div className="ImgOneLeft">
                                 <img src={Foto1} alt="React Logo" width="50%"/>   
@@ -234,7 +234,7 @@ const PageSix = () =>{
                     </div>
                 </div>
                 <div>
-                    <div style={{padding: 8}}>
+                <div style={{padding: '10%'}}>
                         <div style={{width: '100%', color: 'white'}}  className="ImgTwo">
                             <div className="ImgOneLeft">
                                 <img src={Foto2} alt="React Logo" width="90%"/>   

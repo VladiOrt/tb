@@ -44,11 +44,11 @@ return(
             </div>
 		</div>
         <div class="slide">
-            <div className="Foto2">
+            <div className="Foto5">
                 <div className="textNameTeam">
-                    <text className="Name">BIANCA <text>GONZALEZ</text></text>
-                    <text className="position">Jr. Graphic Design</text>
-                </div>            
+                    <text className="Name">JORGE <text>MONTIEL</text></text>
+                    <text className="position">CMO</text>
+                </div>   
             </div>
 		</div>
         <div class="slide">
@@ -59,30 +59,40 @@ return(
                 </div>   
             </div>
 		</div>
+
         <div class="slide">
             <div className="Foto4">
                 <div className="textNameTeam">
                     <text className="Name">JAIME <text>MARTINEZ</text></text>
-                    <text className="position">Sr. Graphic Design</text>
+                    <text className="position">Design & Project Manager</text>
                 </div>   
             </div>
 		</div>
+       
+       
         <div class="slide">
-            <div className="Foto5">
+            <div className="Foto2">
                 <div className="textNameTeam">
-                    <text className="Name">JORGE <text>MONTIEL</text></text>
-                    <text className="position">CMO</text>
-                </div>   
+                    <text className="Name">BIANCA <text>GONZALEZ</text></text>
+                    <text className="position">Jr. Graphic Designer</text>
+                </div>            
             </div>
 		</div>
+        
+        
         <div class="slide">
             <div className="Foto6">
                 <div className="textNameTeam">
                     <text className="Name">RAFAEL <text>SALDAÑA</text></text>
-                    <text className="position">Sr. Graphic Design</text>
+                    <text className="position">Sr. 3D Graphic Designer</text>
                 </div>   
             </div>
 		</div>
+        
+
+
+
+
         <div class="slide">
             <div className="Foto1">
                 <div className="textNameTeam">
@@ -92,11 +102,11 @@ return(
             </div>
 		</div>
         <div class="slide">
-            <div className="Foto2">
+            <div className="Foto5">
                 <div className="textNameTeam">
-                    <text className="Name">BIANCA <text>GONZALEZ</text></text>
-                    <text className="position">Jr. Graphic Design</text>
-                </div>            
+                    <text className="Name">JORGE <text>MONTIEL</text></text>
+                    <text className="position">CMO</text>
+                </div>   
             </div>
 		</div>
         <div class="slide">
@@ -107,30 +117,37 @@ return(
                 </div>   
             </div>
 		</div>
+
         <div class="slide">
             <div className="Foto4">
                 <div className="textNameTeam">
                     <text className="Name">JAIME <text>MARTINEZ</text></text>
-                    <text className="position">Sr. Graphic Design</text>
+                    <text className="position">Design & Project Manager</text>
                 </div>   
             </div>
 		</div>
+       
+       
         <div class="slide">
-            <div className="Foto5">
+            <div className="Foto2">
                 <div className="textNameTeam">
-                    <text className="Name">JORGE <text>MONTIEL</text></text>
-                    <text className="position">CMO</text>
-                </div>   
+                    <text className="Name">BIANCA <text>GONZALEZ</text></text>
+                    <text className="position">Jr. Graphic Designer</text>
+                </div>            
             </div>
 		</div>
+        
+        
         <div class="slide">
             <div className="Foto6">
                 <div className="textNameTeam">
                     <text className="Name">RAFAEL <text>SALDAÑA</text></text>
-                    <text className="position">Sr. Graphic Design</text>
+                    <text className="position">Sr. 3D Graphic Designer</text>
                 </div>   
             </div>
 		</div>
+
+
 
 	</div>
 </div>

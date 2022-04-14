@@ -3,6 +3,6 @@
 .ContactsContainer{
     width: 100%;
     min-height: 120vh;
-    $list3: #000000 0%, #000000 10%, #000000 25%, #000000 39%, #000000 90%, #FF4700 100%; 
+    $list3: #000000 0%, #000000 10%, #000000 25%, #000000 39%,#FF4700 90%; 
     background: -webkit-linear-gradient($list3);
 }

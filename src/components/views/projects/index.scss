@@ -1,16 +1,45 @@
 .ContentProjects{
+    border-top: 1px solid rgba(0,0,0, .3);
     width: 90vw;
+    margin-top: 20vh;
     min-height: 100vh;
-    margin-top:10vh;
     margin-bottom:10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.ContentProjectsTitle{
+    width: 90vw;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    div{
+        width: 50%;
+    }
+    .ContentProjectsLeft{
+        font-family: Montserrat;
+        font-size: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        img{
+            margin-right: 10px;
+        }
+    }
+    .ContentProjectsRight{
+        color: #707070;
+        font-family: Montserrat;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
 
 .ContentProjectsViewImgageOne , .ContentProjectsViewImgageTwo{
-    width: 60%;
+    width: 70%;
     background-color: #CBCBCB;
     min-height: 45vh;
     margin : 0;
@@ -29,7 +58,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-size: 100%;
+        background-size: 120%;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .ContentProjectsViewImgageRight{
         min-width: 40%;
@@ -40,6 +71,40 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        text{
+            min-height: 5%;
+            font-family: Montserrat;
+            margin-bottom: 8px;
+        }
+        .textOne{
+            font-size: 1.2rem;
+            color: #000;
+            font-family: Montserrat;
+        }
+        .textTwo{
+            font-size: 0.9rem;
+            color: #939393;
+            font-family: Montserrat
+        }
+        .textThree{
+            min-width: 1.5vw;
+            min-height: 1.5vw;
+            max-height: 1.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-radius: 5%;
+            background-color: #000;
+            border-radius: 1.5vw;
+            .Flecha{
+                min-width: 1.5vw;
+                background-image: url('../../img/flechanegra/Trazado.svg');
+                background-size: 40%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
     }
 }
 
@@ -56,7 +121,40 @@
 
        // background-image: url('../../img/projects/Label.svg');
         // background: rgba(0,0,0,0.7) url('../../img/projects/Label.svg')
-
+        text{
+            min-height: 5%;
+            font-family: Montserrat;
+            margin-bottom: 8px;
+        }
+        .textOne{
+            font-size: 1.2rem;
+            color: #000;
+            font-family: Montserrat;
+        }
+        .textTwo{
+            font-size: 0.9rem;
+            color: #939393;
+            font-family: Montserrat
+        }
+        .textThree{
+            min-width: 1.5vw;
+            min-height: 1.5vw;
+            max-height: 1.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-radius: 5%;
+            background-color: #000;
+            border-radius: 1.5vw;
+            .Flecha{
+                min-width: 1.5vw;
+                background-image: url('../../img/flechanegra/Trazado.svg');
+                background-size: 40%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
 
     }
     .ContentProjectsViewImgageRight{
@@ -67,7 +165,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-size: 100%;
+        background-size: 120%;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
 }
@@ -75,24 +175,71 @@
 .ContentProjectsViewImgageOne:hover{
     background-color:#000000;
     .ContentProjectsViewImgageLeft{
-        background: #000000b3;
+        background: rgba(0,0,0, .3);
         background-blend-mode: darken;
-        opacity: 0.8;
         background-size: 100%;
     }
     .ContentProjectsViewImgageRight{
         background-color:#000000;
-        
+        .textOne{
+            color: #FFF;
+        }
+        .textTwo{
+            font-size: 0.9rem;
+        }
+        .textThree{
+            min-width: 1.5vw;
+            min-height: 1.5vw;
+            max-height: 1.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-radius: 5%;
+            background-color: #FFF;
+            border-radius: 1.5vw;
+            .Flecha{
+                min-width: 1.5vw;
+                background-image: url('../../img/flecha/Trazado 239.svg');
+                background-size: 40%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
     }
 }
 .ContentProjectsViewImgageTwo:hover{
     .ContentProjectsViewImgageLeft{
         background-color:#000000;
+        .textOne{
+            color: #FFF;
+        }
+        .textTwo{
+            font-size: 0.9rem;
+        }
+        .textThree{
+            min-width: 1.5vw;
+            min-height: 1.5vw;
+            max-height: 1.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-radius: 5%;
+            background-color: #FFF;
+            border-radius: 1.5vw;
+            .Flecha{
+                min-width: 1.5vw;
+                background-image: url('../../img/flecha/Trazado 239.svg');
+                background-size: 40%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
     }
     .ContentProjectsViewImgageRight{
-        background: #000000b3;
+        background: rgba(0,0,0, .3);
         background-blend-mode: darken;
-        opacity: 0.8;
         background-size: 100%;
     }
 }

@@ -77,15 +77,24 @@
                 }
                 .message{
                     min-height: 10vh;
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: flex-start;
                 }
                 input[type="text"] , input[type="date"]{    
                     background-color : #707070;
                     color: white;
+                    font-size: 1rem;
+                    padding-left: 10px;
                     border:0px;   
                   }
+                  input[type="date"]{    
+                    background-color : #707070;
+                    color: rgb(255, 255, 255,0.6);
+                    font-size: 1rem;
+                    padding-left: 10px;
+                    border:0px;   
+                  }
+                 
+                 
+                  
             }
 
             .inputRadius{
@@ -98,20 +107,34 @@
                     flex-direction: column;
                     label{
                         margin-bottom: 8px;
+                        font-style: Helvetica;
+                    }
+                    .title{
+                        font-family:  Helvetica Neue;
                     }
                 }
                 border-bottom: 1px solid rgba(255,255,255, .3);
             }
 
-            button[type="submit"]{    
-                background-color : black;
+            button[type="submit"]{   
+                cursor: pointer; 
+                position: relative;
                 color: white;
                 font-size: 1.5rem;
+                text-align: left;
                 display: flex;
                 justify-content: flex-start;
-                align-items: center;
-                min-height: 50px;
+                align-items: flex-start;
+                max-height: 50px;
+                min-width: 20%;
                 border:0px;   
+                text{
+                    margin-top: 5%;
+                    width: 20%;
+                }
+                img{
+                    margin-top: 10%;
+                }
             }
         }
         .containerFormContentRight{
@@ -121,8 +144,31 @@
             justify-content: flex-end;
             align-items: center;
             font-family: SummerFaith;
-            font-weight: 550;
+            font-weight: 500;
             font-size: 8rem;
+            line-height: 6rem;
+            margin-left: 10%;
         }
     }
 }
+input::placeholder {
+    color: rgb(255, 255, 255,0.6);
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+  .message {    
+    margin: 0;
+    padding: 0;
+  }
+  .textarea{
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Helvetica;
+    color: rgb(255, 255, 255,0.6);
+    background-color: #707070;
+  }
+  .Boton{
+      background-color: transparent;
+  }

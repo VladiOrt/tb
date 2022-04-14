@@ -1,15 +1,11 @@
-import React  from "react";
+import React , {useState} from "react";
 import './index.scss'
 
-
+import Flecha from '../../img/flecha'
 import Select from "react-select"
+
 const FormContact= () => {
-    const options = [
-        { value: 'chocolate', label: 'Chocolate' },
-        { value: 'strawberry', label: 'Strawberry' },
-        { value: 'vanilla', label: 'Vanilla' }
-      ]
-      
+
     return(
         <div className="containerFormContact">
             <div className="formTitle">
@@ -29,8 +25,8 @@ const FormContact= () => {
                         <text className="RightSubtitle">Last Name / <tex  className='gray'> Apellido </tex></text>
                     </div>
                     <div className="inputForm">
-                        <input type="text"  placeholder="Carlos"></input>
-                        <input type="text"  placeholder="Manzano"></input>
+                        <input type="text"  placeholder="Thomas"></input>
+                        <input type="text"  placeholder="Edwards"></input>
                     </div>
 
                     <div className="subtitleForm">
@@ -38,7 +34,7 @@ const FormContact= () => {
                         <text>Cell Phone / <tex  className='gray'>Celular</tex></text>
                     </div>
                     <div className="inputForm">
-                        <input type="text"  placeholder="cmanzano@example.com"></input>
+                        <input type="text"  placeholder="email@example.com"></input>
                         <input type="text"  placeholder="+1(333)333-3333"></input>
                     </div>
 
@@ -79,7 +75,9 @@ const FormContact= () => {
                         <text> Tell us a little about what you need /<tex  className='gray'> Tus requerimientos</tex> </text>
                     </div>
                     <div className="inputForm">
-                        <input type="text" className="message" placeholder="How can we help you"></input>
+                        <textarea className="textarea" rows="5" cols="80">
+                            How can we help you
+                        </textarea>
                     </div>
 
                     <div className="subtitleForm">
@@ -87,104 +85,107 @@ const FormContact= () => {
                         <text> Delivery Date / <tex  className='gray'>Fecha de entrega</tex> </text>
                     </div>
                     <div className="inputForm">
-                        <input type="date"  placeholder="10 / 02 / 2022"></input>
-                        <input type="date"  placeholder="10 / 02 / 2022"></input>
+                        <input type="date" ></input>
+                        <input type="date"  > </input>
                     </div>
-                    
-
-
+                    <div className="subtitleForm">
+                        <text> Services required / <tex className='gray'>Servicios requeridos</tex> </text>
+                    </div>
+                    <br></br>
                     <div className="inputRadius">
+                        
                         <div>
-                            <label>Branding</label>
+                            <label className="title">Branding</label>
                             <label>
-                                <input type="radio"></input>
+                                
+                                <input type="checkbox"></input>
                                 Naming
                             </label>
                             <label>
-                                <input type="radio"></input>
+                                <input type="checkbox"></input>
                                 New Brand
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Rebrand
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Brand applications
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Brand Book / Visual Identity
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Social Media Assets
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Packaging
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Signage
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Naming System
                             </label>
                         </div>
                         <div>
-                            <label>Graphic Design</label>
+                            <label className="title">Graphic Design</label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Advertisement
                             </label>
                             <label>
-                                <input type="radio"></input>
+                                <input type="checkbox"></input>
                                 Presentation
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Catalog
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Infographic
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Illustration
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Iconography
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Photo manipulation
                             </label>
                            
                         </div>
                         <div>
-                        <label>Web Design & Development</label>
+                        <label className="title"> Web Design & Development</label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 UI Design
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 UX Design
                             </label>
                             <label>
-                                <input type="radio"></input>
+                            <input type="checkbox"></input>
                                 Front End Development
                             </label>
                         </div>
                     </div>
-                    <button type="submit" className="Submit">Submit</button>
+                    <button type="submit" className="Boton"><text>Submit</text> <Flecha /></button>
                 </div>
                 <div className="containerFormContentRight">
-                    Let’s start building <br></br>
+                    Let’s start building
                     something great !
                 </div>
 

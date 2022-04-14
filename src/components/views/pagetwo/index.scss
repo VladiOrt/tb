@@ -1,5 +1,5 @@
 .containerContentPageTwo{
-    min-width: 100vw;
+    min-width: 99.7vw;
     min-height: 80vh;
     max-height: 80vh;
     display: flex;
@@ -9,7 +9,7 @@
 }
 
 .titlePageTwo{
-    width: 85vw;
+    width: 90vw;
     min-height: 20vh;
     max-height: 20vh;
     display: flex;
@@ -17,7 +17,7 @@
     align-items: center;
     color: #FFF;
     font-family:  Montserrat;
-    font-size: 1.2rem;
+    font-size: 1rem;
     img{
         margin-right: 1%;
     }
@@ -34,7 +34,7 @@
         h1{
             font-size: 2.8rem;
             font-stretch: condensed;
-            margin-bottom: -1%;
+            margin-bottom: -1.5%;
         }
     }
 }
@@ -58,6 +58,7 @@
             font-weight: 800;
             font-family:  Montserrat;
             li{
+                cursor: pointer;
                 margin-left:10%;
                 width: 80%;
                 min-height: 5.5vh;
@@ -66,31 +67,38 @@
             .suboptionSelected{
                 color: #FF4700;
                 //border-bottom: 1px solid #FFFFFF;
-                border-bottom: 1px solid rgba(255,255,255, .3);
+                border-bottom: 1px solid rgba(255,255,255, .8);
             }
         }
     }
     .contentMenuPageTwo{
-        min-width: 30%;
-        max-width: 30%;
+        min-width: 25%;
+        max-width: 25%;
         display: flex;
         padding-top: 5vh;
         .textContainer{
                 .title{
                     color: #FFF;
-                    font-size: 1.5rem;
+                    font-size: 1.4rem;
                     font-family: Montserrat;
+                    margin-bottom: 3%;
                 }
                 .subtitle{
                     color: #FA500F;
-                    font-size: 1.4rem;
+                    font-size: 1.2rem;
                     font-family: Montserrat;
+                    margin-bottom: 3%;
                 }
-                .text{
+                .text{                    
+                    max-width: 25vw;
                     color: #CBCBCB;
-                    font-size: 1.3rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    text-align: justify;
+                    font-family: Montserrat;
+                    line-height: 150%;
                 }
-                .boton{
+                .Links{
                     color: #FFFFFF;
                     display: flex;
                     justify-content: flex-start;
@@ -98,10 +106,39 @@
                     min-height: 10vh;
                     font-size: 1.3rem;
                     font-family: Montserrat;
+                    width: 100%;
                     border-bottom: 1px solid rgba(255,255,255, .3);
+                    .boton{
+                        display: flex;
+                        width: 100%;
+                        text{
+                            width: 95%;
+                        }
+                    }
+                    
+                }
+                .Links:hover{
+                    color: #FFFFFF;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    min-height: 10vh;
+                    font-size: 1.3rem;
+                    font-family: Montserrat;
+                    width: 100%;
+                    border-bottom: 1px solid rgba(255,255,255, .3);
+                    text{
+                        width: 95%;
+                    }
                 }
            
         }
        
     }
+}
+
+.Links{
+    text-decoration: none;
+    
+    padding-bottom: 10px;
 }

@@ -9,11 +9,6 @@ import iconInsta from '../../img/pageseven/iconInstaBottom.svg';
 import iconFacebook from '../../img/pageseven/iconFacebookBottom.svg';
 import iconBe from '../../img/pageseven/iconBeBottom.svg';
 
-
-import toBeUnique from '../../img/pageseven/toBeUnique.svg';
-import toBeAwesome from '../../img/pageseven/toBeAwesome.svg';
-import toBeCreative from '../../img/pageseven/toBeCreative.svg';
-import toBeEspecial from '../../img/pageseven/toBeEspecial.svg';
 const PageSeven = () =>{
 
     const [chart,Chart] = useState(getRandom())
@@ -30,22 +25,22 @@ const PageSeven = () =>{
                 <div className="titleInformation">
                     {
                         chart == 0 ?
-                            (<img src={toBeUnique} alt="React Logo" width="20%"/>)
+                            (<text>tBE<label>®</label><text>Special</text></text>)
                         :''
                     }
                     {
                         chart == 1 ?
-                            (<img src={toBeAwesome} alt="React Logo" width="20%"/>)
+                            (<text>tBE<label>®</label><text>Awesome</text></text>)
                         :''
                     }
                     {
                         chart == 2 ?
-                            (<img src={toBeCreative} alt="React Logo" width="20%"/>)
+                            (<text>tBE<label>®</label><text>Creative</text></text>)
                         :''
                     }
                     {
                         chart == 3 ?
-                            (<img src={toBeEspecial} alt="React Logo" width="20%"/>)
+                            (<text>tBE<label>®</label><text>Unique</text></text>)
                         :''
                     }
                 </div>  

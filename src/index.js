@@ -4,19 +4,32 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter, Route,Link,Routes} from 'react-router-dom'
 
 import './fonts/Summer-Faith.otf';
 import './fonts/Montserrat-Regular.otf';
 import './fonts/Summer Faith.ttf';
 
+import HeaderNavContact from './components/nav/contact'
+import HeaderNavProjects from './components/nav/projects'
+ 
+    
 
 ReactDOM.render(
   <BrowserRouter >
-    <App />    
+      <Routes>
+          <Route exact path='/' element={<App />} />
+          <Route  exact path='/contact' element={<HeaderNavContact />} />
+          <Route exact path='/projects' element={<HeaderNavProjects />} />
+      </Routes>
   </BrowserRouter>,
   document.getElementById('root')
 );
+
+
+
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

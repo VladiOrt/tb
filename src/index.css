@@ -9,6 +9,7 @@ body {
   src: local('fonts'),
    url("./fonts/Summer-Faith.otf") format("opentype");
 }
+
 @font-face {
   font-family: Montserrat;
   src: local('fonts'),
@@ -21,7 +22,7 @@ body {
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',SummerFaith-Regular,
-    monospace,MiFuentePersonal,Montserrat;    
+    monospace,MiFuentePersonal,Montserrat,SummerFaith,  Helvetica, Helvetica Neue;    
 }
 
 
@@ -41,6 +42,7 @@ code {
 
 body::-webkit-scrollbar:vertical {
   width:10px;
+  display: none;
 }
 
 body::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
@@ -49,6 +51,7 @@ body::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
 
 body::-webkit-scrollbar:horizontal {
   height: 10px;
+  display: none;
 }
 
 body::-webkit-scrollbar-thumb {

@@ -27,9 +27,22 @@ margin: 0;
  align-items: flex-start;
   font-family: Montserrat;
   .textOne{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.5rem;
     font-size: 2rem;
   }
   .textTwo{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    line-height: 5rem;
     color: #FF4700;
     font-size: 7rem;
   }
@@ -74,7 +87,9 @@ margin: 0;
     justify-content: flex-start;
     align-items: center;
     font-family: SummerFaith;
+    font-weight: 500;
      font-size: 5rem;
+    
      padding-left: 1%;
    }
 }
