@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tb/static/css/main.33628c24.css",
-    "main.js": "/tb/static/js/main.5e84d7ca.js",
+    "main.css": "/tb/static/css/main.35a7175e.css",
+    "main.js": "/tb/static/js/main.3ef626c1.js",
     "static/js/787.10e132ba.chunk.js": "/tb/static/js/787.10e132ba.chunk.js",
     "static/media/Foto2.svg": "/tb/static/media/Foto2.ec896633883c6f89713bb7a1c95625dd.svg",
     "static/media/Foto1.svg": "/tb/static/media/Foto1.0ed2472b7b256344030e29a000ae2d7e.svg",
@@ -31,6 +31,7 @@
     "static/media/Summer-Faith.otf": "/tb/static/media/Summer-Faith.8da7697cb031bb3350e3.otf",
     "static/media/toBeAwesome.svg": "/tb/static/media/toBeAwesome.937b74d9e55749b7782c1abccaac490e.svg",
     "static/media/TheBranding.svg": "/tb/static/media/TheBranding.9a256888a8ca63435bc3a9e339e22186.svg",
+    "static/media/brandingExperience.svg": "/tb/static/media/brandingExperience.88ecdb8fd5e4a2307bb0c48ad2acbc4d.svg",
     "static/media/toBeUnique.svg": "/tb/static/media/toBeUnique.36ef77d50ceeaf55f97eb7cb5a58eb46.svg",
     "static/media/toBeEspecial.svg": "/tb/static/media/toBeEspecial.bc7d46243449faf34801552cff91ee48.svg",
     "static/media/toBeCreative.svg": "/tb/static/media/toBeCreative.409aac60349f21cfe56da3ffb901eb84.svg",
@@ -60,12 +61,12 @@
     "static/media/Mas.svg": "/tb/static/media/Mas.7075ca18bc356da50631340748859279.svg",
     "static/media/Elipse 39.svg": "/tb/static/media/Elipse 39.ed8d3340cb2eb082156bf4f1c3e9b1f8.svg",
     "static/media/Elipse.svg": "/tb/static/media/Elipse.f9a8eda7cd7432d58b86079c6540950b.svg",
-    "main.33628c24.css.map": "/tb/static/css/main.33628c24.css.map",
-    "main.5e84d7ca.js.map": "/tb/static/js/main.5e84d7ca.js.map",
+    "main.35a7175e.css.map": "/tb/static/css/main.35a7175e.css.map",
+    "main.3ef626c1.js.map": "/tb/static/js/main.3ef626c1.js.map",
     "787.10e132ba.chunk.js.map": "/tb/static/js/787.10e132ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33628c24.css",
-    "static/js/main.5e84d7ca.js"
+    "static/css/main.35a7175e.css",
+    "static/js/main.3ef626c1.js"
   ]
 }
