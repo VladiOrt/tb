@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="29" viewBox="0 0 29 29">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_135" data-name="Rectángulo 135" width="17.919" height="11.349" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="BeOpenMovil" data-name="Grupo 867" transform="translate(-0.003 0.051)">
+    <g id="Grupo_474" data-name="Grupo 474">
+      <circle id="Elipse_37" data-name="Elipse 37" cx="14.5" cy="14.5" r="12" transform="translate(0.003 -0.051)" fill="#FFF"/>
+    </g>
+    <g id="Grupo_673" data-name="Grupo 673" transform="translate(5.49 8.774)" clip-path="url(#clip-path)">
+      <path id="Trazado_714" data-name="Trazado 714" d="M7.232,5.074a1.929,1.929,0,0,0,1.7-2.115A2.84,2.84,0,0,0,5.783,0H0V11.113H5.783s3.53.111,3.53-3.28c0,0,.154-2.759-2.081-2.759m-4.684-3.1H5.783s.786,0,.786,1.156-.462,1.324-.987,1.324H2.548ZM5.634,9.138H2.548V6.168H5.783s1.172-.015,1.172,1.526c0,1.285-.857,1.431-1.321,1.444" fill="#de4628"/>
+      <path id="Trazado_715" data-name="Trazado 715" d="M160.735,45.384c-4.274,0-4.27,4.27-4.27,4.27a3.943,3.943,0,0,0,4.27,4.248s3.8.217,3.8-2.955h-1.956s.065,1.195-1.782,1.195a1.808,1.808,0,0,1-1.956-1.934H164.6s.63-4.824-3.868-4.824m1.738,3.341h-3.651a1.988,1.988,0,0,1,1.956-1.713,1.654,1.654,0,0,1,1.695,1.713" transform="translate(-146.714 -42.557)" fill="#de4628"/>
+      <rect id="Rectángulo_134" data-name="Rectángulo 134" width="4.585" height="1.369" transform="translate(11.63 0.655)" fill="#de4628"/>
+    </g>
+  </g>
+</svg>
